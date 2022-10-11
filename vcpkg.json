@@ -1,9 +1,21 @@
 {
-  "name": "example",
-  "version": "1",
-  "dependencies": [
-    "boost-stl-interfaces",
-    "rsm-binary-io",
-    "spdlog"
-  ]
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "notificationlogsse",
+    "version-string": "1.4.0",
+    "port-version": 0,
+    "description": "",
+    "homepage": "",
+    "license": "MIT",
+    "features": {
+        "plugin": {
+            "description": "Build the SKSE plugin.",
+            "dependencies": [
+                "articuno",
+                "commonlibsse-ng"
+            ]
+        }
+    },
+    "default-features": [
+        "plugin"
+    ]
 }
